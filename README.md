@@ -14,9 +14,7 @@ $ npm install fs
 $ npm install moment
 $ node index.js
 ```
-# Note
 - The .txt file is created automatically upon running the bot and sending a message in any channel
-
 # Creator
 - [DiabloTheDev](http://discord.bio/p/diablo)
 
