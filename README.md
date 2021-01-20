@@ -8,6 +8,7 @@ A Discord bot made in javascript that logs messages into a .txt file
 # How to install
 - Change the config.json file and use your bot's settings
 ```
+$ git clone https://github.com/DiabloTheDev/discord-message-logger
 $ npm install discord.js
 $ npm install fs
 $ npm install moment
