@@ -8,7 +8,7 @@ const fs = require("fs")
 client.setMaxListeners(0);
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}`);
-  const mabe = [`Made by Diablo#0005`, `github.com/DiabloTheDev`];
+  const mabe = [`Made by Diablo#0005`, `github.com/Mal0ware`];
 
   setInterval(function() {
     let awnser = mabe[Math.floor(Math.random() * mabe.length)]
