@@ -8,14 +8,13 @@ const fs = require("fs")
 client.setMaxListeners(0);
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}`);
-  const mabe = [`Made by Diablo#0005`, `github.com/Mal0ware`];
+  const status = [`Made by Diablo#0005`, `github.com/Mal0ware`];
 
   setInterval(function() {
-    let awnser = mabe[Math.floor(Math.random() * mabe.length)]
-
-    client.user.setActivity(`${awnser}`);
-
+    let answer = status[Math.floor(Math.random() * status.length)]
+    client.user.setActivity(`${answer}`);
   }, 10000);
+  
 });
 
 client.on('error', console.error);
