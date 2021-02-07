@@ -21,7 +21,6 @@ client.on('error', console.error);
 
 client.on("message", async message => {
   message.channel.messages.fetch().then(async messages => {
-    console.log(`${messages.size}`); // This counts all messages sent in the server
 
     const handleTime = (timestamp) => moment(timestamp).format("DD/MM/YYYY - hh:mm:ss a").replace("pm", "PM").replace("am", "AM"); 
   
