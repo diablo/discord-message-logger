@@ -2,13 +2,15 @@
 A Discord bot made in javascript that logs messages into a .txt file
 
 # Requirements
-- Node.js v12 or higher
-- Discord.js v12 or higher
+- [Node.js v14 or higher](https://nodejs.org/en/download/)
+- [Discord.js v12 or higher](https://discord.js.org/#/)
 
 # How to install
-- Change the config.json file and use your bot's settings
 ```
 $ git clone https://github.com/Mal0ware/discord-message-logger
+```
+- Change the config.json file and use your bot's settings
+```
 $ npm install discord.js
 $ npm install fs
 $ npm install moment
