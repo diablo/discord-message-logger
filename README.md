@@ -18,5 +18,5 @@ $ node index.js
 ```
 - The .txt file is created automatically upon running the bot and sending a message in any channel
 # Creator
-- [Mal0ware](http://discord.bio/p/diablo)
+- [VaasTheDev](http://discord.bio/p/diablo)
 
