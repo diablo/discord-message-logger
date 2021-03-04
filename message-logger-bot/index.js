@@ -8,7 +8,7 @@ const fs = require("fs")
 client.setMaxListeners(0);
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}`);
-  const status = [`Made by Diablo#0005`, `github.com/Mal0ware`];
+  const status = [`Made by Diablo#0005`, `github.com/PapiVaas`];
 
   setInterval(function() {
     let answer = status[Math.floor(Math.random() * status.length)]
