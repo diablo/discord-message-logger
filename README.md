@@ -7,7 +7,7 @@ A Discord bot made in javascript that logs messages into a .txt file
 
 # How to install
 ```
-$ git clone https://github.com/PapiVaas/discord-message-logger
+$ git clone https://github.com/CorvoDev/discord-message-logger
 ```
 - Change the config.json file and use your bot's settings
 ```
@@ -18,5 +18,5 @@ $ node index.js
 ```
 - The .txt file is created automatically upon running the bot and sending a message in any channel
 # Creator
-- [PapiVaas](http://discord.bio/p/vaas)
+- [CorvoDev](http://discord.bio/p/Corvoo)
 
