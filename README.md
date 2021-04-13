@@ -18,5 +18,5 @@ $ node index.js
 ```
 - The .txt file is created automatically upon running the bot and sending a message in any channel
 # Creator
-- [CorvoDev](http://discord.bio/p/Corvoo)
+- [CorvoDev](https://github.com/CorvoDev)
 
