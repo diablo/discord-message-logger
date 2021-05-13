@@ -17,6 +17,6 @@ $ npm install moment
 $ node index.js
 ```
 - The .txt file is created automatically upon running the bot and sending a message in any channel
-# Creator
-- [Diablo](https://github.com/Diablo)
+# Author
+- [Diablo](https://github.com/diablo)
 
