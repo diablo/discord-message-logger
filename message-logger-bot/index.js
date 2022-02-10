@@ -8,11 +8,11 @@ const fs = require("fs")
 client.setMaxListeners(0);
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}`);
-  const status = [`Made by Diablo#0004`, `github.com/Diablo`];
+  const statuses = [`Made by Hike#0001`, `github.com/Diablo`];
 
   setInterval(function() {
-    let answer = status[Math.floor(Math.random() * status.length)]
-    client.user.setActivity(`${answer}`);
+    let activity = statuses[Math.floor(Math.random() * statuses.length)]
+    client.user.setActivity(`${activity}`);
   }, 10000);
   
 });
